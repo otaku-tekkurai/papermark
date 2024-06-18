@@ -295,7 +295,7 @@ export default function PrivacyPage() {
         <p>
           If you wish to be informed what Personal Data we hold about you and if
           you want it to be removed from our systems, please email us at
-          support@papermark.io.
+          support@zoop.one.
         </p>
         <p>
           In certain circumstances, you have the following data protection

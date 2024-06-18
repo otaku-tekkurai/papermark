@@ -119,7 +119,7 @@ export default function AllowListSection({
             <textarea
               className="form-textarea w-full rounded-md border-0 bg-background py-1.5 text-sm leading-6 text-foreground shadow-sm ring-1 ring-inset ring-input placeholder:text-muted-foreground focus:ring-2 focus:ring-inset focus:ring-gray-400"
               rows={5}
-              placeholder="Enter allowed emails/domains, one per line, e.g.                                      marc@papermark.io                                                                             @example.org"
+              placeholder="Enter allowed emails/domains, one per line, e.g.                                      bhargav@zoop.one                                                                             @example.org"
               value={allowListInput}
               onChange={handleAllowListChange}
             />
