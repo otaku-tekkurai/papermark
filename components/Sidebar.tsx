@@ -110,12 +110,13 @@ export const SidebarComponent = ({ className }: { className?: string }) => {
       icon: ServerIcon,
       current: router.pathname.includes("datarooms"),
       active: false,
-      disabled:
-        userPlan === "business" ||
-        userPlan === "datarooms" ||
-        userTrial === "drtrial"
-          ? false
-          : true,
+      disabled: false
+
+        // userPlan === "business" ||
+        // userPlan === "datarooms" ||
+        // userTrial === "drtrial"
+        //   ? false
+        //   : true,
     },
     {
       name: "Branding",
