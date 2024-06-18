@@ -57,7 +57,7 @@ export default function TeamInvitation({
               or copy and paste this URL into your browser: <br />
               {`${url}`}
             </Text>
-            <Text className="text-sm text-gray-400">Marc from Papermark</Text>
+            <Text className="text-sm text-gray-400">Bhargav from Zoopsign</Text>
             <Hr />
             <Section className="mt-8 text-gray-400">
               <Text className="text-xs">
