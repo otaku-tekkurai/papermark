@@ -130,7 +130,9 @@ const InvestorFallback = ({ allInvestors }: { allInvestors: Investor[] }) => {
 };
 
 export default async function HomePage() {
-  const data = await getInvestors();
+  // @bhargav
+  // const data = await getInvestors();
+  const data = { records: []};
   const { records: allInvestors } = data as { records: Investor[] };
 
   return (
