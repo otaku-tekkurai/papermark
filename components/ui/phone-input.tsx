@@ -1,8 +1,8 @@
 import * as React from "react";
 
-import { E164Number } from "libphonenumber-js/types.cjs";
 import { CheckIcon, ChevronsUpDown } from "lucide-react";
 import * as RPNInput from "react-phone-number-input";
+import { Value } from "react-phone-number-input";
 import flags from "react-phone-number-input/flags";
 
 import { Button } from "@/components/ui/button";
@@ -50,9 +50,9 @@ const PhoneInput: React.ForwardRefExoticComponent<PhoneInputProps> =
            * when a valid phone number is not entered. To prevent this,
            * the value is coerced to an empty string.
            *
-           * @param {E164Number | undefined} value - The entered value
+           * @param {E164Number  | string | undefined} value - The entered value
            */
-          onChange={(value) => onChange?.((value || "") as E164Number)}
+          onChange={(value) => onChange?.((value || "") as Value)}
           {...props}
         />
       );

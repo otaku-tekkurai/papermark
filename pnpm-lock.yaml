@@ -267,8 +267,8 @@ importers:
         specifier: ^8.0.2
         version: 8.0.2(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-phone-number-input:
-        specifier: ^3.4.3
-        version: 3.4.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 3.4.3
+        version: 3.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-textarea-autosize:
         specifier: ^8.5.3
         version: 8.5.3(@types/react@18.3.3)(react@18.3.1)
@@ -354,6 +354,9 @@ importers:
       '@types/ua-parser-js':
         specifier: ^0.7.39
         version: 0.7.39
+      notion-types:
+        specifier: ^6.16.0
+        version: 6.16.0
       prettier:
         specifier: ^3.3.2
         version: 3.3.3
@@ -5279,8 +5282,8 @@ packages:
       '@types/react':
         optional: true
 
-  react-phone-number-input@3.4.4:
-    resolution: {integrity: sha512-zeyZeS1Iazhj3vTHj6qOyTTguBf/WFLAe9OtA8s0Itycy7AOoQI0vFlpxKDaEcyvYup7Wt79lKu+nl/nJwyLdw==}
+  react-phone-number-input@3.4.3:
+    resolution: {integrity: sha512-n0dD9V1T8EWeRoGwVMcNK6bwOdEbIk0U3EQ87K0WTADgyJZUJd9NIQMmpcl9mtWSL+LwPaEMzre0yGkhwZYTzg==}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
@@ -12553,7 +12556,7 @@ snapshots:
       - encoding
       - supports-color
 
-  react-phone-number-input@3.4.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-phone-number-input@3.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       classnames: 2.5.1
       country-flag-icons: 1.5.13

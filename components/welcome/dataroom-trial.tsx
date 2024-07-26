@@ -4,7 +4,8 @@ import { useState } from "react";
 
 import { useTeam } from "@/context/team-context";
 import { motion } from "framer-motion";
-import { E164Number } from "libphonenumber-js/types.cjs";
+import { Value } from "react-phone-number-input";
+
 import { toast } from "sonner";
 import { mutate } from "swr";
 
@@ -34,7 +35,7 @@ export default function DataroomTrial() {
   const [companySize, setCompanySize] = useState<string>("");
   const [name, setName] = useState<string>("");
   const [companyName, setCompanyName] = useState<string>("");
-  const [phoneNumber, setPhoneNumber] = useState<E164Number | null>(null);
+  const [phoneNumber, setPhoneNumber] = useState<Value | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
 
   const handleSubmit = async (event: any) => {
